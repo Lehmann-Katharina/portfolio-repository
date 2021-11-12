@@ -1,13 +1,45 @@
-.btn {
-    font-family: "Montserrat", sans-serif;
+:root {
+    --heading-font-family: font-family: "Roboto", sans-serif; 
+}
+
+.hero {
+    background: #202020;
+    text-align: center;
+    padding: 150px 50px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: bold;
+  font-size: 72px ;
+  margin-bottom: 25px;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: regular;
+hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+hero p {
+  font-family: var(--heading-font-family);
+  font-weight: regular;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.btn-branding {
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    color: #202020;
+    border-color: white;
+    border-radius: 50px;
+    margin-top: 48px;
+    padding: 18px 30px;
 }
