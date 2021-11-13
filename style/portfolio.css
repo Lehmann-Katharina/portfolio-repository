@@ -1,45 +1,97 @@
-:root {
-    --heading-font-family: font-family: "Roboto", sans-serif; 
+body {
+  background-color: #202020
 }
+
 
 .hero {
-    background: #202020;
-    text-align: center;
-    padding: 150px 50px;
+  text-align: center;
+  padding: 150px 50px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    color: white;
+.homepage {
+    background: #282323;
+    padding: 15px 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    width: 350px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
 }
 
 h1 {
-  font-family: var(--heading-font-family);
-  font-size: bold;
-  font-size: 72px ;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
   margin-bottom: 25px;
 }
 
-hero h2 {
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 15px;
 
+.content {
+    padding: 0px 60px 0px 0px;
 }
 
 hero p {
-  font-family: var(--heading-font-family);
+  font-family: "Roboto", sans-serif;
   font-weight: regular;
   font-size: 18px;
   margin-top: 30px;
+  color: #f65282;
 }
 
 .btn-branding {
-    font-family: "Montserrat", sans-serif;
-    background-color: white;
-    color: #202020;
-    border-color: white;
-    border-radius: 50px;
-    margin-top: 48px;
-    padding: 18px 30px;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: #202020;
+  border-color: white;
+  border-radius: 50px;
+  margin-top: 48px;
+  padding: 12px 20px;
+font-size: 11px;
+letter-spacing: 0.1em;
+}
+
+ h2, hero h2 {
+     margin-bottom: 15px;
+     color: #f65282;
+     font-weight: small;
+     font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+ }
+
+ p {
+     line-height: 1.7;
+     text-align: justify;
+ }
+
+.btn-branding-outline {
+font-family: "Montserrat", sans-serif;
+  background-color:white;
+  color: #f65282;
+  border-radius: 50px;
+  margin-top: 48px;
+  padding: 12px 20px;
+  font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
 }
