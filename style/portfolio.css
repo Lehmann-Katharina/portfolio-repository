@@ -73,7 +73,6 @@ p {
   letter-spacing: 0.1em;
 }
 
-
 .about-section {
   padding: 100px 30px 0px 30px;
 }
@@ -92,28 +91,40 @@ p {
   padding: 30px 15px;
 }
 
-.carousel {
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 60px 20px 20px 20px;
+.work-section {
+  padding: 120px 20px 20px 20px;
 }
 
-.carousel h5 {
-    color: #f65282;
+.work-hero {
+  text-align: center;
+  padding: 120px 0px;
 }
 
+.work-carousel {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 60px 20px 20px 20px;
+}
+
+.work-carousel h5 {
+  color: #f65282;
+}
 
 @media (max-width: 800px) {
   .hero {
     padding-bottom: 0px;
     margin-top: 50px;
   }
+  .work-hero {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
   .btn-branding {
     display: block;
     margin-top: 20px;
   }
-  .carousel {
-      max-width: 100%;
+  .work-carousel {
+    max-width: 100%;
   }
   h2,
   h1,
@@ -125,6 +136,6 @@ p {
     width: 50px;
   }
   h1 {
-      font-size: 31px;
+    font-size: 31px;
   }
 }
