@@ -106,9 +106,14 @@ p {
 @media (max-width: 800px) {
   .hero {
     padding-bottom: 0px;
+    margin-top: 50px;
   }
   .btn-branding {
     display: block;
+    margin-top: 20px;
+  }
+  .carousel {
+      max-width: 100%;
   }
   h2,
   h1,
