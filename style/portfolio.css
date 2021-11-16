@@ -75,7 +75,7 @@ p {
 
 
 .about-section {
-  padding: 100px 60px 0px 60px;
+  padding: 100px 30px 0px 30px;
 }
 
 .icon {
@@ -90,13 +90,6 @@ p {
 .project-container {
   background: #282323;
   padding: 30px 15px;
-}
-
-.about-content {
-    padding: 20px;
-}
-.about-content h2 {
-    writing-mode: vertical-rl;
 }
 
 .carousel {
