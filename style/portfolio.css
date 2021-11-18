@@ -84,6 +84,7 @@ p {
 .fab,
 .fas {
   color: #f65282;
+  font-size: 18px;
 }
 
 .project-container {
@@ -109,6 +110,12 @@ p {
 .work-carousel h5 {
   color: #f65282;
 }
+
+.contact-section {
+  padding: 150px 50px;
+}
+
+
 
 @media (max-width: 800px) {
   .hero {
