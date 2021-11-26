@@ -47,8 +47,8 @@ p {
 .hero {
   text-align: center;
   padding: 150px 50px;
-  background-image: url("/images/bg.png");
-  background-size: contain;
+  background-image: url("/images/light.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -109,7 +109,11 @@ p {
 
 .work-carousel h5 {
   color: #f65282;
+  font-weight: 20px;
+  
 }
+
+
 
 .contact-section {
   padding: 150px 50px;
@@ -144,7 +148,7 @@ footer .social-links a {
 
 @media (max-width: 800px) {
   .hero {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     margin-top: 50px;
   }
   .work-hero {
