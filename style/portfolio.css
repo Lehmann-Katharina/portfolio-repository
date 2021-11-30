@@ -1,5 +1,5 @@
 body {
-  background-color: #E9E8E8;
+  background-color: #e9e8e8;
 }
 
 h1,
@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 h1 {
@@ -17,6 +17,8 @@ h1 {
   font-size: 60px;
   margin-bottom: 25px;
 }
+
+
 
 hero p {
   font-family: "Roboto", sans-serif;
@@ -46,31 +48,63 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 50px 20px 50px;
-  background-color: #E9E8E8;
+  padding: 100px 0px;
+  background-color: #e9e8e8;
+  margin: 0 auto;
 }
 
 .about-section {
-  padding: 80px 30px 0px 30px;
-  background-color: #E9E8E8;
+    padding: 100px 0px 20px 0px;
 }
 
-.homepage {
-  background: #E9E8E8;
-  padding: 15px 15px;
+.about-section h1 {
+    font-size: 40px;
+}
+
+.about-section p {
+    color: #202020;
+}
+
+.about-section .email-link {
+    color: #f65282;
+}
+
+.about-me {
+    margin-top: 130px;
+}
+
+
+.skills-container .fab {
+    display: block;
+    font-size: 40px;
 }
 
 .content {
   background-color: #dadadadc;
-  
-  padding: 40px;
+  padding: 50px 30px;
   width: 600px;
+  height: auto;
   margin: 0 auto;
   border-radius: 5px;
 }
 
+.homepage {
+  background: #e9e8e8;
+  padding: 15px 15px;
+}
+
+.projects .container {
+  padding: 10px 20px 10px 20px;
+  margin: 0 auto;
+}
+
+.projects .row {
+  background-color: #dadadadc;
+  border-radius: 5px;
+}
+
 .content p {
-    color: white;
+  color: white;
 }
 .btn-branding {
   font-family: "Montserrat", sans-serif;
@@ -84,6 +118,10 @@ p {
   letter-spacing: 0.1em;
 }
 
+.btn-branding:hover {
+    color: #f65282;
+}
+
 .icon {
   padding: 0;
 }
@@ -92,11 +130,6 @@ p {
 .fas {
   color: #f65282;
   font-size: 18px;
-}
-
-.project-container {
-  background: #282323;
-  padding: 30px 15px;
 }
 
 .work-section {
@@ -121,11 +154,19 @@ p {
 
 .contact-section {
   padding: 150px 50px;
+  
 }
 
+.contact-section ul {
+    list-style-type: none;
+}
+
+.contact-section p {
+    color: #202020;
+}
 .email-link {
   text-decoration: none;
-  color: white;
+  color: #202020;
 }
 
 .email-link:hover {
@@ -154,6 +195,16 @@ footer .social-links a {
   .hero {
     padding-bottom: 20px;
   }
+  .content {
+    max-width: 330px;
+    height: auto;
+  }
+  .projects .container {
+    padding: 20px;
+  }
+  .about-me {
+    margin-top: 0px;
+}
   .work-hero {
     padding-top: 15px;
     padding-bottom: 0px;
@@ -176,7 +227,7 @@ footer .social-links a {
     width: 50px;
   }
   h1 {
-    font-size: 31px;
+    font-size: 27px;
   }
   footer .social-links a {
     padding: 3px;
