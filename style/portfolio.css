@@ -1,5 +1,5 @@
 body {
-  background-color: #202020;
+  background-color: #E9E8E8;
 }
 
 h1,
@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p {
-  color: white;
+  color: #C0C0C0;
 }
 
 h1 {
@@ -46,21 +46,32 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 50px 60px 50px;
-  background-image: url("/images/light.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 100px 50px 20px 50px;
+  background-color: #E9E8E8;
+}
+
+.about-section {
+  padding: 80px 30px 0px 30px;
+  background-color: #E9E8E8;
 }
 
 .homepage {
-  background: #282323;
+  background: #E9E8E8;
   padding: 15px 15px;
 }
 
 .content {
-  padding-right: 15px;
+  background-color: #dadadadc;
+  
+  padding: 40px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
+.content p {
+    color: white;
+}
 .btn-branding {
   font-family: "Montserrat", sans-serif;
   background-color: white;
@@ -71,10 +82,6 @@ p {
   padding: 12px 20px;
   font-size: 11px;
   letter-spacing: 0.1em;
-}
-
-.about-section {
-  padding: 100px 30px 0px 30px;
 }
 
 .icon {
@@ -110,10 +117,7 @@ p {
 .work-carousel h5 {
   color: #f65282;
   font-weight: 20px;
-  
 }
-
-
 
 .contact-section {
   padding: 150px 50px;
@@ -149,7 +153,6 @@ footer .social-links a {
 @media (max-width: 800px) {
   .hero {
     padding-bottom: 20px;
-    margin-top: 50px;
   }
   .work-hero {
     padding-top: 15px;
@@ -158,6 +161,7 @@ footer .social-links a {
   .btn-branding {
     display: block;
     margin-top: 20px;
+    font-size: 10px;
   }
   .work-carousel {
     max-width: 100%;
