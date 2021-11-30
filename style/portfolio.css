@@ -2,15 +2,7 @@ body {
   background-color: #e9e8e8;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: #c0c0c0;
-}
+
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -48,9 +40,27 @@ p {
 
 .hero {
   text-align: center;
-  padding: 100px 0px;
+  padding: 100px 10px;
   background-color: #e9e8e8;
   margin: 0 auto;
+  max-width: 1500px;
+}
+
+.hero .hello {
+    padding-top: 80px;
+}
+
+.index-work-section {
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+.index-work-carousel {
+    padding: 70px;
+}
+
+.certificate-section {
+    padding: 100px;
 }
 
 .about-section {
@@ -73,6 +83,9 @@ p {
     margin-top: 130px;
 }
 
+.skills-container {
+    padding: 100px;
+}
 
 .skills-container .fab {
     display: block;
@@ -144,7 +157,7 @@ p {
 .work-carousel {
   max-width: 60%;
   margin: 0 auto;
-  padding: 60px 20px 20px 20px;
+  padding: 120px 20px 20px 20px;
 }
 
 .work-carousel h5 {
@@ -159,6 +172,7 @@ p {
 
 .contact-section ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 .contact-section p {
@@ -193,7 +207,7 @@ footer .social-links a {
 
 @media (max-width: 800px) {
   .hero {
-    padding-bottom: 20px;
+    padding-bottom: 80px;
   }
   .content {
     max-width: 330px;
@@ -204,6 +218,12 @@ footer .social-links a {
   }
   .about-me {
     margin-top: 0px;
+}
+.skills-container {
+    padding: 0px;
+}
+.certificate-section {
+    padding: 20px;
 }
   .work-hero {
     padding-top: 15px;
