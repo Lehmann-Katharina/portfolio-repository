@@ -60,18 +60,19 @@ p {
 }
 
 .certificate-section {
-    padding: 100px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
 }
 
 .about-section {
-    padding: 100px 0px 20px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .about-section h1 {
     font-size: 40px;
 }
 
-.about-section p {
+.about-section p, {
     color: #202020;
 }
 
@@ -84,7 +85,7 @@ p {
 }
 
 .skills-container {
-    padding: 100px;
+    padding: 60px;
 }
 
 .skills-container .fab {
@@ -221,9 +222,6 @@ footer .social-links a {
 }
 .skills-container {
     padding: 0px;
-}
-.certificate-section {
-    padding: 20px;
 }
   .work-hero {
     padding-top: 15px;
